@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/sign-up.css">
+<div class="span3">
+    <h2>Sign Up</h2>
+    <form action="/create" method="POST">
+    <label>First Name</label>
+    <input type="text" name="firstname" class="span3">
+    <label>Last Name</label>
+    <input type="text" name="lastname" class="span3">
+    <label>phone-no</label>
+    <input type="text" name="phoneno" class="span3">
+    <label>Email Address</label>
+    <input type="email" name="email" class="span3">
+    <label>Username</label>
+    <input type="text" name="username" class="span3">
+    <label>Password</label>
+    <input type="password" name="password" class="span3">
+    <label for="start">Start date:</label>
+
+    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+    <br>
+    <label><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.</label>
+    <button class="btn" type="submit">sign-in</button>
+    <div class="clearfix"></div>
+    </form>
+    
+
+</div>

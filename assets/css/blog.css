@@ -1,0 +1,35 @@
+.blog1{
+    background-color: #7fffd4;
+    font-family: "Montserrat", "Roboto", sans-seri;
+}
+    
+.rajamouli1
+{
+    height: 200px;
+    width: 160px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.blog2
+{
+    background-color: cornflowerblue;
+    font-family: "Montserrat", "Roboto", sans-seri;
+}
+.blog3 
+{
+    background-color:crimson;
+    font-family: "Montserrat", "Roboto", sans-seri;
+}
+.rajamouli2
+{
+    height: 200px;
+    width: 160px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.button1
+{
+    text-align: center;
+    padding-bottom: 20px;
+}

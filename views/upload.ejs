@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/assets/css/upload.css">
+<div class="bcd">
+
+
+    <h3>
+        <p class="abc" style="color:rgb(98, 98, 230);">Click on the "Choose File" button to upload a file:</p>
+    </h3>
+    <% for(var i of link) {%>
+        <ul>
+            <li><img src="http://localhost:8000/<%= i.record%>" width="400px" height="400px"></li>
+        </ul>
+
+        <%} %>
+
+            <form action="/upload" enctype="multipart/form-data" method="POST">
+                <input class="cd" type="file" id="myFile" name="record">
+                <button class="btn" type="submit">SUBMIT</button>
+            </form>
+            <a href="/index"> <button type="button" class="btn btn-dark btn-lg ">Home-page</button></a>
+</div>
